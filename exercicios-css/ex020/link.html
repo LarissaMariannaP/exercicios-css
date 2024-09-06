@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited/* oq acontece quando o link já é visitado*/{
+            color: darkred;
+        }
+        a:hover/*serve para coisas escondidas*/{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active/*oque acontece quando você faz uma atividade */{
+            color: yellow;
+        }
+    
+        a::after{ 
+            content: ' [link]';
+            font-weight: lighter;
+            color: darkgray;
+        }
+        p::first-line{
+            font-size: 2em;
+            color: red;
+            background-color: black;
+        } 
+        p{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <li><a href="https://gustavoguanbara.github.io" target="_blank">Repositório GitHub</a></li>
+    <li><a href="https://youtube.com/cursoemvideo/" target="_blank">Canal do Youtube</a></li>
+    <li><a href="https://www.cursoemvideo.com" target="_blank" >Site do Curso em Video</a></li>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius adipisci exercitationem numquam eos autem illo voluptatum labore optio nostrum voluptates, ea cupiditate obcaecati quasi tempore! Temporibus odio ad eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, hic aliquam cupiditate magni veritatis tempora perspiciatis, ratione nihil atque nisi, nostrum ad consequuntur dolor dolore explicabo non harum? Provident, ut. </p>
+
+</body>
+</html>

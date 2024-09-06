@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient( to bottom, #DCB1E0, #E0B6AD) ;
+    background-attachment: fixed;
+}
+#fundo{
+    background-color: rgba(214, 151, 217, 0.595);
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px 5px #d644ca ;
+    width: 800px;
+    margin: auto;
+    padding: 4%;
+}
+
+#aparecer > img{
+    display: none;
+}
+#aparecer:hover > img{
+    display: inline-block;
+    color: rgb(244, 244, 244);
+    background-color: purple;
+    height: 200px;
+    width: 200px;
+
+}
+#aparecer:hover{
+    display: block;
+}
+h1{
+    color:#892660 ;
+}
+.emoji{
+    font-size: 3em;
+}
+img{
+    margin: auto;
+    display: inline-block;
+}
